@@ -112,7 +112,7 @@ pip install pandas numpy yfinance matplotlib seaborn plotly
 # Option 2 : Jupyter en local
 jupyter notebook portfolio_risk_analysis.ipynb
 ```
-
+https://colab.research.google.com/drive/10RhZ-BWUYkv5uuuIPvV-AkKiF20RBZky#
 ---
 
 ## Structure du projet
