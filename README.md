@@ -1,10 +1,10 @@
-# 📊 Portfolio Risk & Optimization Analysis
+# Portfolio Risk & Optimization Analysis
 
 > Simulation et analyse du risque d'un portefeuille multi-actifs : VaR, Expected Shortfall, Ratio de Sharpe, Ratio de Sortino et Frontière Efficiente via simulation Monte Carlo.
 
 ---
 
-## 🧠 Contexte
+## Contexte
 
 Ce projet s'inscrit dans une démarche d'analyse quantitative du risque de portefeuille, proche des problématiques rencontrées en gestion des risques bancaires (reporting NPL, pilotage du coût du risque).
 
@@ -14,7 +14,7 @@ L'objectif est double :
 
 ---
 
-## 💼 Composition du portefeuille
+## Composition du portefeuille
 
 | Actif | Ticker | Pondération initiale | Secteur |
 |---|---|---|---|
@@ -27,7 +27,7 @@ L'objectif est double :
 
 ---
 
-## 📐 Méthodologie
+## Méthodologie
 
 ### 1. Analyse des rendements
 - Calcul des **rendements logarithmiques** journaliers
@@ -83,7 +83,7 @@ L'objectif est double :
 
 ---
 
-## 🛠️ Stack technique
+## Bases de donnée
 
 ```
 Python 3.10+
@@ -97,7 +97,7 @@ Python 3.10+
 
 ---
 
-## 🚀 Installation & Lancement
+## Installation & Lancement
 
 ### Prérequis
 ```bash
@@ -115,18 +115,18 @@ jupyter notebook portfolio_risk_analysis.ipynb
 
 ---
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
-📦 portfolio-risk-analysis
- ┣ 📓 portfolio_risk_analysis.ipynb   # Notebook principal
- ┣ 📄 README.md                       # Documentation
- ┗ 📄 requirements.txt                # Dépendances
+ portfolio-risk-analysis
+ ┣ portfolio_risk_analysis.ipynb   # Notebook principal
+ ┣ README.md                       # Documentation
+ ┗ requirements.txt                # Dépendances
 ```
 
 ---
 
-## 🔮 Améliorations prévues
+## Améliorations prévues
 
 - [ ] Ajouter la **VaR Monte Carlo** et **VaR paramétrique** pour comparer les 3 méthodes
 - [ ] Intégrer un **backtesting** de la VaR (nombre de dépassements observés)
@@ -136,17 +136,16 @@ jupyter notebook portfolio_risk_analysis.ipynb
 
 ---
 
-## 👤 Auteur
+## Auteur
 
 **Brad Aymeric Feltre Kamanou**  
 Étudiant Master Data Management — IÉSEG School of Management  
-Ancien stagiaire Risque de Crédit — Crédit Mutuel Arkéa  
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/ton-profil)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/ton-profil)
 
 ---
 
-## 📜 Licence
+## Licence
 
 Ce projet est à but éducatif. Les données sont issues de Yahoo Finance via l'API `yfinance`.
